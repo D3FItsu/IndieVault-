@@ -6,7 +6,7 @@
 **Tema escolhido:** Landing page de um catálogo de jogos independentes
 
 ## Descrição
-O IndieVault  é uma landing page de um catálogo de jogos indies, com três áreas principais: **Jogos indies**, **Gêneros** e **Avaliações**. Os jogos e avaliações são fictícios.
+O IndieVault  é uma landing page de um catálogo de jogos indies, com três áreas principais: **Jogos indies**, **Gêneros** e **Avaliações**. 
 
 ## Responsividade
 Testada em três resoluções:
