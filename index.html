@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>IndieVault — Catálogo de jogos independentes</title>
+  <meta name="description" content="Descubra jogos indies, explore por gênero e leia avaliações da comunidade.">
+  <!-- Fontes (Google Fonts) -->
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- CABEÇALHO -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#inicio" class="logo">Indie<span>Vault</span></a>
+
+      <form class="busca" role="search" action="#jogos">
+      <input type="search" name="busca" placeholder="Buscar jogo..." aria-label="Buscar jogos">
+      <button type="submit">Buscar</button>
+      </form>
+
+      <nav aria-label="Navegação principal">
+        <ul class="menu">
+          <li><a href="#jogos">Jogos</a></li>
+          <li><a href="#generos">Gêneros</a></li>
+          <li><a href="#avaliacoes">Avaliações</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section id="inicio" class="hero">
+      <div class="container hero-inner">
+        <div>
+          <h1>Jogos feitos por poucos, jogados por muitos.</h1>
+          <p class="lead">O IndieVault reúne jogos independentes de estúdios pequenos, organizados por gênero e avaliados por quem jogou.</p>
+          <a href="#jogos" class="btn">Explorar jogos</a>
+        </div>
+
+        <article class="destaque" aria-label="Jogo em destaque">
+          <img class="capa" src="img/capahollowknight.jpeg" alt="Capa Hollow Knight">
+          <div class="destaque-info">
+            <h2>Hollow Knight</h2>
+            <p>Hollow Knight é uma desafiadora aventura de ação em 2D. Você explorará cavernas sinuosas, lutará contra criaturas contaminadas e escapará de armadilhas complexas, tudo para resolver um antigo mistério há muito escondido.</p>
+            <p class="nota">★ 5,0 <span>· 1.240 avaliações</span></p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- JOGOS INDIES -->
+    <section id="jogos" class="secao">
+      <div class="container">
+        <h2>Jogos indies</h2>
+        <p class="intro">Uma seleção de lançamentos e favoritos da comunidade.</p>
+      <form class="busca" role="search" action="#jogos">
+      <input type="search" name="busca" placeholder="Buscar jogo..." aria-label="Buscar jogos">
+      <button type="submit">Buscar</button>
+      </form>
+        <div class="grade-jogos">
+          <article class="jogo">
+            <img class="capa" src="img/capahollowknight.jpeg" alt="Capa Hollow Knight">
+            <h3>Hollow Knight</h3>
+            <p class="tag">Aventura</p>
+            <p class="nota">★ 5,0</p>
+          </article>
+          <article class="jogo">
+            <img class="capa" src="img/capastardew.jpeg" alt="Capa Stardew Valley">
+            <h3>Stardew Valley</h3>
+            <p class="tag">Simulação</p>
+            <p class="nota">★ 5,0</p>
+          </article>
+          <article class="jogo">
+            <img class="capa" src="img/capacuphead.jpeg" alt="Capa Cuphead">
+            <h3>Cuphead</h3>
+            <p class="tag">Plataforma</p>
+            <p class="nota">★ 4,9</p>
+          </article>
+          <article class="jogo">
+            <img class="capa" src="img/capastayout.jpeg" alt="Capa Stay out of the house">
+            <h3>Stay Out of the House</h3>
+            <p class="tag">Terror</p>
+            <p class="nota">★ 4,7</p>
+          </article>
+          <article class="jogo">
+            <img class="capa" src="img/capainscryption.jpeg" alt="Capa Inscryption">
+            <h3>Inscryption</h3>
+            <p class="tag">Estratégia</p>
+            <p class="nota">★ 4,7</p>
+          </article>
+          <article class="jogo">
+            <img class="capa" src="img/capagris.jpeg" alt="Capa Gris">
+            <h3>Gris</h3>
+            <p class="tag">Puzzle</p>
+            <p class="nota">★ 4,8</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- GÊNEROS -->
+    <section id="generos" class="secao secao-escura">
+      <div class="container">
+        <h2>Gêneros</h2>
+        <p class="intro">Escolha pelo tipo de jogo que combina com o seu momento.</p>
+
+        <ul class="grade-generos">
+          <li><a href="#jogos"><strong>Aventura</strong><span>128 jogos</span></a></li>
+          <li><a href="#jogos"><strong>Plataforma</strong><span>96 jogos</span></a></li>
+          <li><a href="#jogos"><strong>Puzzle</strong><span>84 jogos</span></a></li>
+          <li><a href="#jogos"><strong>Estratégia</strong><span>61 jogos</span></a></li>
+          <li><a href="#jogos"><strong>Terror</strong><span>47 jogos</span></a></li>
+          <li><a href="#jogos"><strong>Simulação</strong><span>73 jogos</span></a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- AVALIAÇÕES -->
+    <section id="avaliacoes" class="secao">
+      <div class="container">
+        <h2>Avaliações da comunidade</h2>
+        <p class="intro">O que quem jogou tem a dizer.</p>
+
+        <div class="grade-avaliacoes">
+          <article class="avaliacao">
+            <p class="nota">★★★★★</p>
+            <h3>Undertale</h3>
+            <p>Terminei em uma noite e já quero jogar de novo. A trilha sonora é linda.</p>
+            <p class="autor">Marina, jogou por 9 horas</p>
+          </article>
+          <article class="avaliacao">
+            <p class="nota">★★★★☆</p>
+            <h3>Katana Zero</h3>
+            <p>Controles precisos e fases curtas. Ficou difícil no final, mas justo.</p>
+            <p class="autor">Rafael, jogou por 14 horas</p>
+          </article>
+          <article class="avaliacao">
+            <p class="nota">★★★★★</p>
+            <h3>The Biding of Isaac</h3>
+            <p>Cada partida é diferente. Estratégia de verdade, sem enrolação.</p>
+            <p class="autor">Beatriz, jogou por 32 horas</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- RODAPÉ -->
+ <footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 IndieVault</p>
+  </div>
+</footer>
+
+</body>
+</html>
