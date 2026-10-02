@@ -1,4 +1,4 @@
-# IndieHub — Landing Page
+# IndieVault — Landing Page
 
 **Disciplina:** Programação Web I — ADS
 **Professor:** George Mendes Marra
